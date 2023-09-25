@@ -1,0 +1,2672 @@
+[
+  {
+    "supplier": [
+      {
+        "id": "8b6da78f-2abc-4267-a95d-283382fbc498",
+        "name": "ABC Supplier",
+        "contact_number": "1234567890",
+        "address": "123 Main St",
+        "email": "supplier1@example.com",
+        "created_at": "2023-09-24T11:48:25.134Z",
+        "updated_at": "2023-09-24T04:11:38.533Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13c3d3f3-c285-4408-9a31-085394dd4e7c",
+        "name": "XYZ Supplier",
+        "contact_number": "9876543210",
+        "address": "456 Elm St",
+        "email": "supplier2@example.com",
+        "created_at": "2023-09-24T19:40:45.898Z",
+        "updated_at": "2023-09-25T03:21:13.109Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fad4b466-5326-4e76-83c3-c11f1e900f81",
+        "name": "123 Supplier",
+        "contact_number": "5555555555",
+        "address": "789 Oak St",
+        "email": "supplier3@example.com",
+        "created_at": "2023-09-24T07:35:55.346Z",
+        "updated_at": "2023-09-24T04:32:05.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0401514-3c35-441e-8468-a77ac771eb7b",
+        "name": "Test Supplier",
+        "contact_number": "9999999999",
+        "address": "321 Maple St",
+        "email": "supplier4@example.com",
+        "created_at": "2023-09-24T04:19:20.180Z",
+        "updated_at": "2023-09-24T11:05:07.137Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62fbf363-8734-4055-9a7a-837358f8f942",
+        "name": "Sample Supplier",
+        "contact_number": "1111111111",
+        "address": "654 Pine St",
+        "email": "supplier5@example.com",
+        "created_at": "2023-09-24T23:01:59.897Z",
+        "updated_at": "2023-09-24T17:43:24.582Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "4c11e07f-fac3-4a2b-b841-5cbe0d51937c",
+        "name": "Medicine A",
+        "description": "Effective treatment for common cold",
+        "manufacturer": "ABC Pharmaceuticals",
+        "expiry_date": "2023-09-24T04:50:38.883Z",
+        "quantity": 28800,
+        "created_at": "2023-09-24T23:29:37.379Z",
+        "updated_at": "2023-09-24T06:40:04.483Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "18248474-c56b-4f9e-b452-f130027c1fee",
+        "name": "Medicine B",
+        "description": "Relieves pain and inflammation",
+        "manufacturer": "XYZ Pharmaceuticals",
+        "expiry_date": "2023-09-24T11:08:10.582Z",
+        "quantity": 59011,
+        "created_at": "2023-09-24T14:00:24.897Z",
+        "updated_at": "2023-09-25T00:31:02.666Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "55ebd3aa-86a4-467a-bcc6-0baa1054f50e",
+        "name": "Medicine C",
+        "description": "Helps lower cholesterol levels",
+        "manufacturer": "123 Pharmaceuticals",
+        "expiry_date": "2023-09-24T22:37:03.178Z",
+        "quantity": 67078,
+        "created_at": "2023-09-24T04:49:24.030Z",
+        "updated_at": "2023-09-25T02:45:11.058Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "9c8477f0-c7e7-4ab9-a457-103b84484b16",
+        "name": "Medicine D",
+        "description": "Promotes healthy digestion",
+        "manufacturer": "Test Pharmaceuticals",
+        "expiry_date": "2023-09-24T09:43:18.633Z",
+        "quantity": 92911,
+        "created_at": "2023-09-24T22:36:26.429Z",
+        "updated_at": "2023-09-24T05:30:03.683Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "a86e5ab2-825a-46f5-9b81-f6768113e08f",
+        "name": "Medicine E",
+        "description": "Boosts immune system",
+        "manufacturer": "Sample Pharmaceuticals",
+        "expiry_date": "2023-09-24T22:48:13.906Z",
+        "quantity": 40399,
+        "created_at": "2023-09-24T17:02:27.322Z",
+        "updated_at": "2023-09-24T14:54:20.034Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "c3172a51-faf2-4e57-9cf4-d256338d39ee",
+        "first_name": "Mary",
+        "last_name": "Johnson",
+        "phone_number": "5551234567",
+        "address": "789 Elm St",
+        "email": "customer1@example.com",
+        "created_at": "2023-09-25T02:53:57.921Z",
+        "updated_at": "2023-09-24T06:28:03.734Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c20a03c5-ecce-4a0b-bb97-072077d27249",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "phone_number": "5559876543",
+        "address": "321 Oak St",
+        "email": "customer2@example.com",
+        "created_at": "2023-09-24T17:40:29.845Z",
+        "updated_at": "2023-09-24T07:41:15.459Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f727b3e9-4597-49aa-9ead-d0104f1b0088",
+        "first_name": "Jennifer",
+        "last_name": "Davis",
+        "phone_number": "5557894561",
+        "address": "654 Maple St",
+        "email": "customer3@example.com",
+        "created_at": "2023-09-24T12:56:19.015Z",
+        "updated_at": "2023-09-24T11:23:22.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "141fcfaf-44e6-4df5-85d6-4038eb3270ae",
+        "first_name": "William",
+        "last_name": "Miller",
+        "phone_number": "5554567890",
+        "address": "987 Pine St",
+        "email": "customer4@example.com",
+        "created_at": "2023-09-24T19:09:39.801Z",
+        "updated_at": "2023-09-24T07:23:08.147Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1418e6dd-1a91-4a11-95ef-e1c0cd7d96da",
+        "first_name": "Linda",
+        "last_name": "Wilson",
+        "phone_number": "5556543210",
+        "address": "123 Main St",
+        "email": "customer5@example.com",
+        "created_at": "2023-09-24T04:21:50.739Z",
+        "updated_at": "2023-09-24T13:19:10.557Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "1965fc14-2141-485b-97c6-6e9f494e082b",
+        "quantity": 55397,
+        "purchase_date": "2023-09-24T22:16:33.849Z",
+        "total_price": 12574,
+        "created_at": "2023-09-24T14:59:54.281Z",
+        "updated_at": "2023-09-25T03:56:01.126Z",
+        "customer_id": "f727b3e9-4597-49aa-9ead-d0104f1b0088",
+        "medicine_id": "4c11e07f-fac3-4a2b-b841-5cbe0d51937c"
+      },
+      {
+        "id": "aefe12ff-58ae-43e5-97fb-0eacb91cfc4d",
+        "quantity": 53945,
+        "purchase_date": "2023-09-24T10:32:39.491Z",
+        "total_price": 75123,
+        "created_at": "2023-09-24T14:25:17.852Z",
+        "updated_at": "2023-09-24T04:21:58.595Z",
+        "customer_id": "f727b3e9-4597-49aa-9ead-d0104f1b0088",
+        "medicine_id": "18248474-c56b-4f9e-b452-f130027c1fee"
+      },
+      {
+        "id": "fe0d7feb-e0de-4a78-b485-32ef8696bb21",
+        "quantity": 37171,
+        "purchase_date": "2023-09-24T08:43:03.060Z",
+        "total_price": 76844,
+        "created_at": "2023-09-24T21:20:46.835Z",
+        "updated_at": "2023-09-24T05:13:53.649Z",
+        "customer_id": "c20a03c5-ecce-4a0b-bb97-072077d27249",
+        "medicine_id": "55ebd3aa-86a4-467a-bcc6-0baa1054f50e"
+      },
+      {
+        "id": "58e82dc6-e1aa-480c-9bac-c3b11f6e8e98",
+        "quantity": 96689,
+        "purchase_date": "2023-09-24T08:59:36.118Z",
+        "total_price": 40451,
+        "created_at": "2023-09-24T04:11:31.027Z",
+        "updated_at": "2023-09-24T14:05:32.441Z",
+        "customer_id": "c20a03c5-ecce-4a0b-bb97-072077d27249",
+        "medicine_id": "9c8477f0-c7e7-4ab9-a457-103b84484b16"
+      },
+      {
+        "id": "44bacbea-2b8c-4971-95e7-99893b004cbc",
+        "quantity": 83388,
+        "purchase_date": "2023-09-24T11:24:30.251Z",
+        "total_price": 16084,
+        "created_at": "2023-09-24T11:59:46.561Z",
+        "updated_at": "2023-09-24T09:13:07.089Z",
+        "customer_id": "141fcfaf-44e6-4df5-85d6-4038eb3270ae",
+        "medicine_id": "4c11e07f-fac3-4a2b-b841-5cbe0d51937c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "45ec98db-3c08-4427-ab4f-94cfbe4e05bb",
+        "email": "Jammie27@roq.tech",
+        "firstName": "Ressie",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "662b9dc9-1bd2-4742-872a-0d496628d50a",
+        "email": "Verda_Schuppe@roq.tech",
+        "firstName": "Octavia",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d42a0bcf-acf9-4f31-ba43-5ef59412322b",
+        "email": "Shaina_Gleason48@roq.tech",
+        "firstName": "Ramon",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67432363",
+        "tenantId": null
+      },
+      {
+        "reference": "7ca88c8a-e2dd-4510-8bec-9a5d3701efe0",
+        "email": "Genoveva_Bergnaum14@roq.tech",
+        "firstName": "Rolando",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7742635-4153-4b86-bd6f-cc88eed5f395",
+        "email": "Arlo36@roq.tech",
+        "firstName": "Enoch",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1217.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "035dd372-afdc-49b5-848b-01d623323751",
+        "name": "ABC Supplier",
+        "contact_number": "1234567890",
+        "address": "123 Main St",
+        "email": "supplier1@example.com",
+        "created_at": "2023-09-24T23:24:43.536Z",
+        "updated_at": "2023-09-24T21:55:48.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f5d3d5c-88fc-49c3-865f-a76a6cd0013f",
+        "name": "XYZ Supplier",
+        "contact_number": "9876543210",
+        "address": "456 Elm St",
+        "email": "supplier2@example.com",
+        "created_at": "2023-09-24T21:58:52.221Z",
+        "updated_at": "2023-09-25T03:37:31.316Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec9035a5-0024-4ba9-9647-1dddc6fd2f35",
+        "name": "123 Supplier",
+        "contact_number": "4567891230",
+        "address": "789 Oak St",
+        "email": "supplier3@example.com",
+        "created_at": "2023-09-24T15:02:29.206Z",
+        "updated_at": "2023-09-25T01:50:27.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95cf3d2c-d506-4622-ba66-e7898eff9baf",
+        "name": "PQR Supplier",
+        "contact_number": "3216549870",
+        "address": "321 Pine St",
+        "email": "supplier4@example.com",
+        "created_at": "2023-09-24T19:05:53.908Z",
+        "updated_at": "2023-09-24T05:16:45.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dce16baa-e492-4c13-a7ac-5571216fade0",
+        "name": "789 Supplier",
+        "contact_number": "7891234560",
+        "address": "987 Maple St",
+        "email": "supplier5@example.com",
+        "created_at": "2023-09-24T07:36:32.535Z",
+        "updated_at": "2023-09-24T19:08:59.344Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "41c94812-dd62-47ba-99c8-fb8e1cd5078b",
+        "name": "Medicine 1",
+        "description": "Description 1",
+        "manufacturer": "Manufacturer A",
+        "expiry_date": "2023-09-25T01:26:48.474Z",
+        "quantity": 82876,
+        "created_at": "2023-09-24T12:18:51.701Z",
+        "updated_at": "2023-09-25T02:04:20.830Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "ab57d97b-ca0d-4718-92b5-278667303503",
+        "name": "Medicine 2",
+        "description": "Description 2",
+        "manufacturer": "Manufacturer B",
+        "expiry_date": "2023-09-24T13:13:19.083Z",
+        "quantity": 80669,
+        "created_at": "2023-09-25T03:40:42.639Z",
+        "updated_at": "2023-09-25T03:47:03.124Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "779766c9-bc67-443a-aef2-2fe5353d6a16",
+        "name": "Medicine 3",
+        "description": "Description 3",
+        "manufacturer": "Manufacturer C",
+        "expiry_date": "2023-09-24T10:50:37.455Z",
+        "quantity": 37210,
+        "created_at": "2023-09-25T01:46:13.995Z",
+        "updated_at": "2023-09-24T18:42:45.760Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "6488d610-6228-4c8e-98f0-8934c301586c",
+        "name": "Medicine 4",
+        "description": "Description 4",
+        "manufacturer": "Manufacturer D",
+        "expiry_date": "2023-09-24T18:48:08.080Z",
+        "quantity": 79062,
+        "created_at": "2023-09-24T07:09:25.633Z",
+        "updated_at": "2023-09-24T05:26:07.453Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "0a4edd64-0df4-4346-a1c3-c95e538c453e",
+        "name": "Medicine 5",
+        "description": "Description 5",
+        "manufacturer": "Manufacturer E",
+        "expiry_date": "2023-09-24T19:07:04.055Z",
+        "quantity": 54443,
+        "created_at": "2023-09-25T01:14:28.619Z",
+        "updated_at": "2023-09-24T07:09:18.614Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "3b603940-c5f5-43ee-b026-03bbf5009cc0",
+        "first_name": "David",
+        "last_name": "Taylor",
+        "phone_number": "5551112222",
+        "address": "789 Main St",
+        "email": "customer1@example.com",
+        "created_at": "2023-09-24T11:57:32.999Z",
+        "updated_at": "2023-09-24T20:08:01.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc4ebd0a-fa66-4352-a4a6-c16be11f0186",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "phone_number": "2225558888",
+        "address": "321 Elm St",
+        "email": "customer2@example.com",
+        "created_at": "2023-09-24T07:24:00.334Z",
+        "updated_at": "2023-09-24T19:05:57.857Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ccf81c4-bacf-49fa-aef7-2e2f28b8201c",
+        "first_name": "James",
+        "last_name": "Anderson",
+        "phone_number": "7774441111",
+        "address": "654 Oak St",
+        "email": "customer3@example.com",
+        "created_at": "2023-09-25T03:19:20.101Z",
+        "updated_at": "2023-09-24T23:50:40.853Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08baed5a-9ffb-4c76-b01e-575185e7e557",
+        "first_name": "Ava",
+        "last_name": "Clark",
+        "phone_number": "3336669999",
+        "address": "987 Pine St",
+        "email": "customer4@example.com",
+        "created_at": "2023-09-24T08:16:56.232Z",
+        "updated_at": "2023-09-24T06:24:52.606Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7403f591-82b2-437f-a9d4-ef580b26a444",
+        "first_name": "William",
+        "last_name": "White",
+        "phone_number": "8883336666",
+        "address": "456 Maple St",
+        "email": "customer5@example.com",
+        "created_at": "2023-09-24T19:28:12.646Z",
+        "updated_at": "2023-09-24T15:11:25.210Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "1a7734bb-0c8c-4ebe-ae70-838a7b5c5ca5",
+        "quantity": 1804,
+        "purchase_date": "2023-09-24T19:23:45.358Z",
+        "total_price": 787,
+        "created_at": "2023-09-25T03:00:52.007Z",
+        "updated_at": "2023-09-24T14:26:39.074Z",
+        "customer_id": "3b603940-c5f5-43ee-b026-03bbf5009cc0",
+        "medicine_id": "ab57d97b-ca0d-4718-92b5-278667303503"
+      },
+      {
+        "id": "c561ceee-3cad-4359-b6f9-bc5a268f4cdb",
+        "quantity": 56295,
+        "purchase_date": "2023-09-24T04:19:06.546Z",
+        "total_price": 79306,
+        "created_at": "2023-09-24T09:32:45.430Z",
+        "updated_at": "2023-09-24T12:14:53.487Z",
+        "customer_id": "dc4ebd0a-fa66-4352-a4a6-c16be11f0186",
+        "medicine_id": "0a4edd64-0df4-4346-a1c3-c95e538c453e"
+      },
+      {
+        "id": "cc5ba477-eaf3-4214-be6a-0d23443d9857",
+        "quantity": 72309,
+        "purchase_date": "2023-09-24T19:12:15.752Z",
+        "total_price": 72305,
+        "created_at": "2023-09-24T20:09:03.243Z",
+        "updated_at": "2023-09-24T23:37:42.974Z",
+        "customer_id": "dc4ebd0a-fa66-4352-a4a6-c16be11f0186",
+        "medicine_id": "0a4edd64-0df4-4346-a1c3-c95e538c453e"
+      },
+      {
+        "id": "6ffa1740-ea3e-4810-a05c-738f89857b77",
+        "quantity": 13287,
+        "purchase_date": "2023-09-25T04:02:31.040Z",
+        "total_price": 34332,
+        "created_at": "2023-09-24T20:42:23.042Z",
+        "updated_at": "2023-09-24T16:53:08.100Z",
+        "customer_id": "08baed5a-9ffb-4c76-b01e-575185e7e557",
+        "medicine_id": "779766c9-bc67-443a-aef2-2fe5353d6a16"
+      },
+      {
+        "id": "b5562e4b-f3c4-49a7-840c-d9c295751bcd",
+        "quantity": 13195,
+        "purchase_date": "2023-09-24T08:07:00.853Z",
+        "total_price": 99166,
+        "created_at": "2023-09-24T05:29:35.974Z",
+        "updated_at": "2023-09-24T10:35:29.007Z",
+        "customer_id": "1ccf81c4-bacf-49fa-aef7-2e2f28b8201c",
+        "medicine_id": "779766c9-bc67-443a-aef2-2fe5353d6a16"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a3a2ad3a-d71d-4a61-a50d-54b5c8ac4b00",
+        "email": "Rhianna45@roq.tech",
+        "firstName": "Amparo",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82554141",
+        "tenantId": null
+      },
+      {
+        "reference": "27e73212-6dea-49e2-b000-535a8834f473",
+        "email": "Amalia68@roq.tech",
+        "firstName": "Kory",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ee8af708-7d35-4fbd-91de-f5b9ab2777fe",
+        "email": "Holly_Marks55@roq.tech",
+        "firstName": "Rashad",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28148705",
+        "tenantId": null
+      },
+      {
+        "reference": "201aa9c2-6c92-40fa-807f-fbf37ff7166c",
+        "email": "Jessy28@roq.tech",
+        "firstName": "Jayce",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/692.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5177bcc1-280e-48f8-860c-4dd2ccebddb3",
+        "email": "Wyatt.Williamson@roq.tech",
+        "firstName": "Casimer",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88909343",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "260dbabc-d766-464b-ad44-c3db015bc537",
+        "name": "ABC Supplier",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "supplier1@example.com",
+        "created_at": "2023-09-25T00:43:05.787Z",
+        "updated_at": "2023-09-24T21:02:57.755Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22962f55-8685-43b8-9a98-55503d35e6f6",
+        "name": "XYZ Supplier",
+        "contact_number": "9876543210",
+        "address": "456 Elm Street",
+        "email": "supplier2@example.com",
+        "created_at": "2023-09-24T14:47:28.611Z",
+        "updated_at": "2023-09-25T01:26:52.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9910a2a-c0eb-49fb-9b6f-3de2838a83d1",
+        "name": "123 Supplier",
+        "contact_number": "5555555555",
+        "address": "789 Oak Street",
+        "email": "supplier3@example.com",
+        "created_at": "2023-09-24T16:54:54.460Z",
+        "updated_at": "2023-09-24T20:35:08.977Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a91eb8b-efff-414e-ab52-0000e15d217c",
+        "name": "Best Supplier",
+        "contact_number": "1111111111",
+        "address": "321 Pine Street",
+        "email": "supplier4@example.com",
+        "created_at": "2023-09-24T21:01:27.820Z",
+        "updated_at": "2023-09-24T19:12:47.582Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7ed8874-53a6-49ef-a596-886fd143075d",
+        "name": "Top Supplier",
+        "contact_number": "9999999999",
+        "address": "654 Maple Street",
+        "email": "supplier5@example.com",
+        "created_at": "2023-09-24T20:13:27.376Z",
+        "updated_at": "2023-09-24T12:53:47.578Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "41302fdb-f0b0-472a-8707-fcfdc7f993e1",
+        "name": "Medicine A",
+        "description": "For pain relief",
+        "manufacturer": "Manufacturer 1",
+        "expiry_date": "2023-09-24T21:32:58.993Z",
+        "quantity": 17816,
+        "created_at": "2023-09-24T22:33:02.059Z",
+        "updated_at": "2023-09-24T05:47:30.882Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "d2608acb-d66e-414f-b173-e82b61dc3101",
+        "name": "Medicine B",
+        "description": "For allergies",
+        "manufacturer": "Manufacturer 2",
+        "expiry_date": "2023-09-24T07:53:28.852Z",
+        "quantity": 47397,
+        "created_at": "2023-09-24T21:44:36.809Z",
+        "updated_at": "2023-09-24T08:30:09.021Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "265e0f14-5e45-442a-9812-280dc7c6c887",
+        "name": "Medicine C",
+        "description": "For cold and flu",
+        "manufacturer": "Manufacturer 3",
+        "expiry_date": "2023-09-24T23:10:09.940Z",
+        "quantity": 29703,
+        "created_at": "2023-09-24T04:44:48.702Z",
+        "updated_at": "2023-09-24T11:34:20.851Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "2ac45240-7c78-44ad-8710-9e7554d8d27d",
+        "name": "Medicine D",
+        "description": "For digestion",
+        "manufacturer": "Manufacturer 4",
+        "expiry_date": "2023-09-25T02:19:53.748Z",
+        "quantity": 1943,
+        "created_at": "2023-09-24T21:54:53.966Z",
+        "updated_at": "2023-09-24T12:57:53.198Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "d6c7bc52-7e19-4117-95a9-bfcdf7b09888",
+        "name": "Medicine E",
+        "description": "For headaches",
+        "manufacturer": "Manufacturer 5",
+        "expiry_date": "2023-09-24T22:33:35.556Z",
+        "quantity": 3391,
+        "created_at": "2023-09-24T09:39:01.206Z",
+        "updated_at": "2023-09-24T05:26:22.950Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "c8fc7b2b-f59d-438f-aa58-2f10aca35429",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "phone_number": "5551112222",
+        "address": "789 Elm Street",
+        "email": "customer1@example.com",
+        "created_at": "2023-09-24T22:24:27.739Z",
+        "updated_at": "2023-09-24T10:52:35.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a01e9b0-e24c-4768-9857-b2695d369714",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "phone_number": "8884445555",
+        "address": "456 Oak Street",
+        "email": "customer2@example.com",
+        "created_at": "2023-09-24T21:37:20.199Z",
+        "updated_at": "2023-09-25T03:31:21.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cafd5030-4456-43eb-83ed-372fc7eb581c",
+        "first_name": "Michael",
+        "last_name": "Williams",
+        "phone_number": "3337778888",
+        "address": "123 Pine Street",
+        "email": "customer3@example.com",
+        "created_at": "2023-09-24T13:51:22.587Z",
+        "updated_at": "2023-09-25T02:01:40.596Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a10b6938-4b15-48d9-9f8b-f44a77ed17da",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "phone_number": "9996663333",
+        "address": "654 Maple Street",
+        "email": "customer4@example.com",
+        "created_at": "2023-09-24T12:29:22.118Z",
+        "updated_at": "2023-09-24T23:31:14.082Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ad1d844-bbfb-4244-9bdd-a28107f015f3",
+        "first_name": "Daniel",
+        "last_name": "Jones",
+        "phone_number": "2229994444",
+        "address": "321 Main Street",
+        "email": "customer5@example.com",
+        "created_at": "2023-09-24T18:02:39.407Z",
+        "updated_at": "2023-09-24T23:12:42.062Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "92aab159-97a7-4033-88ee-2f3781b3e29c",
+        "quantity": 66113,
+        "purchase_date": "2023-09-24T14:55:26.729Z",
+        "total_price": 38196,
+        "created_at": "2023-09-24T07:18:56.940Z",
+        "updated_at": "2023-09-24T23:28:10.174Z",
+        "customer_id": "a10b6938-4b15-48d9-9f8b-f44a77ed17da",
+        "medicine_id": "d2608acb-d66e-414f-b173-e82b61dc3101"
+      },
+      {
+        "id": "7525ff29-9093-4150-9765-0856c950e80f",
+        "quantity": 57826,
+        "purchase_date": "2023-09-25T03:17:06.521Z",
+        "total_price": 40282,
+        "created_at": "2023-09-24T15:32:17.882Z",
+        "updated_at": "2023-09-24T23:08:15.606Z",
+        "customer_id": "cafd5030-4456-43eb-83ed-372fc7eb581c",
+        "medicine_id": "d6c7bc52-7e19-4117-95a9-bfcdf7b09888"
+      },
+      {
+        "id": "c67b6b15-3f13-4a01-826d-d51d4d8dd76a",
+        "quantity": 31561,
+        "purchase_date": "2023-09-25T01:37:20.030Z",
+        "total_price": 41331,
+        "created_at": "2023-09-25T03:07:21.667Z",
+        "updated_at": "2023-09-24T07:20:22.381Z",
+        "customer_id": "cafd5030-4456-43eb-83ed-372fc7eb581c",
+        "medicine_id": "d2608acb-d66e-414f-b173-e82b61dc3101"
+      },
+      {
+        "id": "90925ca9-ebaf-4990-919e-4dc090794f71",
+        "quantity": 3592,
+        "purchase_date": "2023-09-24T14:51:29.678Z",
+        "total_price": 77172,
+        "created_at": "2023-09-24T13:38:44.470Z",
+        "updated_at": "2023-09-24T16:42:10.502Z",
+        "customer_id": "3ad1d844-bbfb-4244-9bdd-a28107f015f3",
+        "medicine_id": "d6c7bc52-7e19-4117-95a9-bfcdf7b09888"
+      },
+      {
+        "id": "235e8418-c078-4a88-b2c2-c989bcea8693",
+        "quantity": 53107,
+        "purchase_date": "2023-09-24T22:15:25.562Z",
+        "total_price": 48095,
+        "created_at": "2023-09-24T11:52:39.928Z",
+        "updated_at": "2023-09-25T03:13:25.553Z",
+        "customer_id": "3ad1d844-bbfb-4244-9bdd-a28107f015f3",
+        "medicine_id": "41302fdb-f0b0-472a-8707-fcfdc7f993e1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4daa533a-ad1e-4739-8d1b-351893ece5df",
+        "email": "Hipolito46@roq.tech",
+        "firstName": "Ken",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d6225d93-07a5-4673-a14b-18fa5a8101aa",
+        "email": "Sigmund39@roq.tech",
+        "firstName": "Nicolas",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20435028",
+        "tenantId": null
+      },
+      {
+        "reference": "5e1b264b-3b47-4182-9e9b-486c7b67f77f",
+        "email": "Kari.Daniel16@roq.tech",
+        "firstName": "Louvenia",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/731.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8213112b-9e54-44e3-a796-be9c401d40c2",
+        "email": "Robyn.Grimes6@roq.tech",
+        "firstName": "Freeman",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33393354",
+        "tenantId": null
+      },
+      {
+        "reference": "72185e45-3c26-4844-893c-a80eb67be7ac",
+        "email": "Sabryna.Rath@roq.tech",
+        "firstName": "Ayden",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2701092",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "a2f004d3-60bd-465b-89ae-f627bb7c5869",
+        "name": "ABC Suppliers",
+        "contact_number": "1234567890",
+        "address": "123 Main St",
+        "email": "info@abcsuppliers.com",
+        "created_at": "2023-09-25T00:19:15.266Z",
+        "updated_at": "2023-09-24T11:01:00.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01b0813a-eb0b-4b5a-a10d-ca6493bb994f",
+        "name": "XYZ Distributors",
+        "contact_number": "9876543210",
+        "address": "456 Elm St",
+        "email": "sales@xyzdistributors.com",
+        "created_at": "2023-09-24T15:49:40.166Z",
+        "updated_at": "2023-09-24T07:31:12.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a807630-8a35-4040-bf19-e19f2c598761",
+        "name": "123 Pharma",
+        "contact_number": "5555555555",
+        "address": "789 Oak St",
+        "email": "contact@123pharma.com",
+        "created_at": "2023-09-24T19:53:05.126Z",
+        "updated_at": "2023-09-25T01:17:26.887Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22b6d693-d62d-4a6c-8681-244692f84a29",
+        "name": "Global Suppliers",
+        "contact_number": "1111111111",
+        "address": "321 Pine St",
+        "email": "info@globalsuppliers.com",
+        "created_at": "2023-09-24T12:08:14.830Z",
+        "updated_at": "2023-09-24T23:56:16.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0a03a15-0255-4f00-b31c-28aeffb3cef4",
+        "name": "Best Medical",
+        "contact_number": "9999999999",
+        "address": "555 Maple St",
+        "email": "sales@bestmedical.com",
+        "created_at": "2023-09-24T22:13:01.622Z",
+        "updated_at": "2023-09-24T06:26:35.586Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "7e2f9e39-b22d-4cea-bd4a-729211181485",
+        "name": "PainAway",
+        "description": "Relieves pain and inflammation",
+        "manufacturer": "ABC Pharmaceuticals",
+        "expiry_date": "2023-09-24T06:10:34.030Z",
+        "quantity": 95666,
+        "created_at": "2023-09-24T13:41:56.321Z",
+        "updated_at": "2023-09-24T05:08:35.773Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "72bdab40-f438-40f0-a3bd-601f17cb0cd1",
+        "name": "HealAll",
+        "description": "Promotes healing and recovery",
+        "manufacturer": "XYZ Labs",
+        "expiry_date": "2023-09-24T23:50:44.141Z",
+        "quantity": 54199,
+        "created_at": "2023-09-24T11:30:49.486Z",
+        "updated_at": "2023-09-25T02:25:52.693Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "a3cf386d-b39b-4774-ad75-ef53ad7c346f",
+        "name": "CureWell",
+        "description": "Treats various ailments and conditions",
+        "manufacturer": "123 Medical",
+        "expiry_date": "2023-09-24T11:56:21.774Z",
+        "quantity": 82734,
+        "created_at": "2023-09-24T13:44:15.360Z",
+        "updated_at": "2023-09-24T23:14:26.192Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "e80a1960-2a3a-4d79-8277-36cb3c6dc21d",
+        "name": "ReliefPlus",
+        "description": "Provides fast and effective relief",
+        "manufacturer": "Global Healthcare",
+        "expiry_date": "2023-09-24T08:12:15.355Z",
+        "quantity": 72949,
+        "created_at": "2023-09-24T11:03:48.202Z",
+        "updated_at": "2023-09-24T11:08:08.799Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "9574b5c6-34e8-4f01-8db5-1c1cd2e4f787",
+        "name": "HealthyLife",
+        "description": "Supports overall health and well-being",
+        "manufacturer": "Best Pharmaceuticals",
+        "expiry_date": "2023-09-24T18:12:55.153Z",
+        "quantity": 66106,
+        "created_at": "2023-09-25T01:09:37.556Z",
+        "updated_at": "2023-09-24T08:26:11.093Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "11382815-aad1-4cd1-80eb-76ce1008eedf",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone_number": "1234567890",
+        "address": "123 Main St",
+        "email": "john.doe@example.com",
+        "created_at": "2023-09-24T08:12:37.362Z",
+        "updated_at": "2023-09-24T11:57:47.517Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca585cc3-5c37-41de-8f2e-93dec5d541d2",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "phone_number": "9876543210",
+        "address": "456 Elm St",
+        "email": "jane.smith@example.com",
+        "created_at": "2023-09-24T21:20:20.004Z",
+        "updated_at": "2023-09-24T14:30:25.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a09dba03-e277-46e0-a720-f6cdb2b4f337",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "phone_number": "5555555555",
+        "address": "789 Oak St",
+        "email": "michael.brown@example.com",
+        "created_at": "2023-09-24T18:42:49.535Z",
+        "updated_at": "2023-09-24T15:56:51.518Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d080f35b-7e41-4407-ae55-7c72e02da199",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "phone_number": "1111111111",
+        "address": "321 Pine St",
+        "email": "sarah.johnson@example.com",
+        "created_at": "2023-09-24T14:20:38.636Z",
+        "updated_at": "2023-09-24T14:47:52.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "864c50f7-aabc-4a39-95f5-214bcdffcd21",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "phone_number": "9999999999",
+        "address": "555 Maple St",
+        "email": "david.wilson@example.com",
+        "created_at": "2023-09-25T01:14:19.339Z",
+        "updated_at": "2023-09-24T20:35:38.487Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "4387fbca-461f-4d1e-8956-2336bc5cf981",
+        "quantity": 87244,
+        "purchase_date": "2023-09-24T23:40:11.543Z",
+        "total_price": 10261,
+        "created_at": "2023-09-24T19:21:24.020Z",
+        "updated_at": "2023-09-24T11:07:21.959Z",
+        "customer_id": "ca585cc3-5c37-41de-8f2e-93dec5d541d2",
+        "medicine_id": "72bdab40-f438-40f0-a3bd-601f17cb0cd1"
+      },
+      {
+        "id": "0f1679ae-2e7c-4bfb-9fff-8db4b25c151b",
+        "quantity": 43281,
+        "purchase_date": "2023-09-24T18:12:38.867Z",
+        "total_price": 1193,
+        "created_at": "2023-09-25T02:56:03.533Z",
+        "updated_at": "2023-09-24T07:17:51.135Z",
+        "customer_id": "a09dba03-e277-46e0-a720-f6cdb2b4f337",
+        "medicine_id": "e80a1960-2a3a-4d79-8277-36cb3c6dc21d"
+      },
+      {
+        "id": "97fd34c0-df8e-4544-9e1b-2e8d3b80d3d7",
+        "quantity": 7758,
+        "purchase_date": "2023-09-24T20:31:25.854Z",
+        "total_price": 13771,
+        "created_at": "2023-09-24T23:46:16.067Z",
+        "updated_at": "2023-09-24T07:09:32.224Z",
+        "customer_id": "11382815-aad1-4cd1-80eb-76ce1008eedf",
+        "medicine_id": "9574b5c6-34e8-4f01-8db5-1c1cd2e4f787"
+      },
+      {
+        "id": "a10eff17-4ae3-4bd1-a480-4f2cf475c183",
+        "quantity": 52363,
+        "purchase_date": "2023-09-24T23:15:30.416Z",
+        "total_price": 10316,
+        "created_at": "2023-09-24T10:39:06.106Z",
+        "updated_at": "2023-09-24T06:09:49.597Z",
+        "customer_id": "ca585cc3-5c37-41de-8f2e-93dec5d541d2",
+        "medicine_id": "a3cf386d-b39b-4774-ad75-ef53ad7c346f"
+      },
+      {
+        "id": "b11420d8-c0ee-407b-9fb3-e937cc240a8e",
+        "quantity": 56691,
+        "purchase_date": "2023-09-25T02:50:03.769Z",
+        "total_price": 84173,
+        "created_at": "2023-09-25T02:33:10.524Z",
+        "updated_at": "2023-09-24T23:00:52.868Z",
+        "customer_id": "11382815-aad1-4cd1-80eb-76ce1008eedf",
+        "medicine_id": "7e2f9e39-b22d-4cea-bd4a-729211181485"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5e185e0e-83c9-4965-85d0-5e1cba7b439d",
+        "email": "Violette40@roq.tech",
+        "firstName": "Hermann",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77189250",
+        "tenantId": null
+      },
+      {
+        "reference": "6cb4fa5c-9e43-4879-8f4a-9df1010792a8",
+        "email": "Murphy_Stracke@roq.tech",
+        "firstName": "Corine",
+        "lastName": "Konopelski-Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64523700",
+        "tenantId": null
+      },
+      {
+        "reference": "0300b95b-02d0-4cb0-9b90-defa1eb3527a",
+        "email": "Brian43@roq.tech",
+        "firstName": "Jana",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/940.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "678f55cc-abc1-4212-96e6-0fd8952156da",
+        "email": "Cheyenne.Wiegand54@roq.tech",
+        "firstName": "Aiden",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17805d1f-8a21-4c4a-ac29-c279f828ed3e",
+        "email": "Maddison.Fahey4@roq.tech",
+        "firstName": "Lyda",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/62.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "fd3c7f7d-aec0-4f08-a3dc-c9ba205345c2",
+        "name": "ABC Suppliers",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "info@abcsuppliers.com",
+        "created_at": "2023-09-24T07:04:55.366Z",
+        "updated_at": "2023-09-24T18:16:08.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61b529f2-ffd7-4369-b2af-0c59bdd03565",
+        "name": "XYZ Distributors",
+        "contact_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "email": "sales@xyzdistributors.com",
+        "created_at": "2023-09-24T10:46:57.318Z",
+        "updated_at": "2023-09-24T10:58:06.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c83843bb-7756-467e-b27a-33ee71f0f28e",
+        "name": "123 Pharma",
+        "contact_number": "5555555555",
+        "address": "789 Oak Drive",
+        "email": "contact@123pharma.com",
+        "created_at": "2023-09-24T12:34:57.857Z",
+        "updated_at": "2023-09-24T06:02:02.961Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2309529b-597d-4692-bc3f-7034c54901ae",
+        "name": "Best Medical Supplies",
+        "contact_number": "1111111111",
+        "address": "321 Pine Lane",
+        "email": "info@bestmedicalsupplies.com",
+        "created_at": "2023-09-25T03:54:24.065Z",
+        "updated_at": "2023-09-24T18:56:20.038Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5dc768e-0f2f-44aa-b6ba-6e6fa18a6f47",
+        "name": "Global Health Solutions",
+        "contact_number": "9999999999",
+        "address": "654 Maple Road",
+        "email": "support@globalhealthsolutions.com",
+        "created_at": "2023-09-24T19:35:45.750Z",
+        "updated_at": "2023-09-24T10:15:32.914Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "00084952-fa84-49fb-8abe-f78ce5aa5a32",
+        "name": "PainAway",
+        "description": "Relieves pain and inflammation",
+        "manufacturer": "ABC Pharmaceuticals",
+        "expiry_date": "2023-09-24T19:46:50.802Z",
+        "quantity": 77113,
+        "created_at": "2023-09-24T04:06:32.467Z",
+        "updated_at": "2023-09-24T15:55:21.906Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "2ff220f1-ccd3-453c-8e82-d476c95f9537",
+        "name": "CoughRelief",
+        "description": "Soothes cough and throat irritation",
+        "manufacturer": "XYZ Labs",
+        "expiry_date": "2023-09-24T07:14:28.081Z",
+        "quantity": 60150,
+        "created_at": "2023-09-25T00:47:50.215Z",
+        "updated_at": "2023-09-24T16:52:06.033Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "42945eb5-eee7-4a16-b6b0-3b0bda9e7956",
+        "name": "FeverFree",
+        "description": "Reduces fever and discomfort",
+        "manufacturer": "123 Medical",
+        "expiry_date": "2023-09-25T02:46:15.818Z",
+        "quantity": 12850,
+        "created_at": "2023-09-24T14:46:23.838Z",
+        "updated_at": "2023-09-24T05:53:03.319Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "a01b665c-497c-4fe8-8508-1906121a2471",
+        "name": "SleepWell",
+        "description": "Promotes restful sleep",
+        "manufacturer": "Best Health Products",
+        "expiry_date": "2023-09-24T22:02:29.458Z",
+        "quantity": 36173,
+        "created_at": "2023-09-24T18:27:26.405Z",
+        "updated_at": "2023-09-24T13:59:27.437Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "02c3f320-8de0-438a-b54d-510b509c1b26",
+        "name": "AllergyShield",
+        "description": "Provides relief from allergies",
+        "manufacturer": "Global Pharma",
+        "expiry_date": "2023-09-24T08:06:00.707Z",
+        "quantity": 70481,
+        "created_at": "2023-09-24T19:22:52.411Z",
+        "updated_at": "2023-09-24T17:11:43.588Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "8fa6ecaa-c94b-4908-ac5f-a948a7d5bf6c",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "phone_number": "5554443333",
+        "address": "789 Elm Avenue",
+        "email": "david.wilson@example.com",
+        "created_at": "2023-09-25T00:52:43.818Z",
+        "updated_at": "2023-09-25T01:34:15.056Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45cf93dc-38b2-405a-a5eb-45ff0e7b6f5f",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "phone_number": "2223334444",
+        "address": "123 Oak Drive",
+        "email": "emily.johnson@example.com",
+        "created_at": "2023-09-25T00:19:50.244Z",
+        "updated_at": "2023-09-24T12:28:57.196Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65bee706-e6b3-4678-b7d6-8f6e10b71895",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "phone_number": "7778889999",
+        "address": "456 Pine Lane",
+        "email": "daniel.brown@example.com",
+        "created_at": "2023-09-24T19:04:04.289Z",
+        "updated_at": "2023-09-24T09:59:06.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "197788e8-3693-47c5-9ce6-dd4410aa67f3",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "phone_number": "1112223333",
+        "address": "901 Maple Road",
+        "email": "olivia.smith@example.com",
+        "created_at": "2023-09-24T12:34:16.532Z",
+        "updated_at": "2023-09-24T19:03:00.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "821084c7-edcc-4984-89f3-33ebd91f7790",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "phone_number": "4445556666",
+        "address": "567 Main Street",
+        "email": "sophia.davis@example.com",
+        "created_at": "2023-09-24T08:26:30.858Z",
+        "updated_at": "2023-09-24T16:30:49.612Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "95fa687f-f3b5-43fd-b99a-9f2212f1d989",
+        "quantity": 65192,
+        "purchase_date": "2023-09-24T15:12:07.362Z",
+        "total_price": 59194,
+        "created_at": "2023-09-24T18:17:08.737Z",
+        "updated_at": "2023-09-24T20:01:53.383Z",
+        "customer_id": "65bee706-e6b3-4678-b7d6-8f6e10b71895",
+        "medicine_id": "42945eb5-eee7-4a16-b6b0-3b0bda9e7956"
+      },
+      {
+        "id": "7172aba1-caba-4760-a3f6-b8ad71cf4553",
+        "quantity": 86877,
+        "purchase_date": "2023-09-24T21:16:15.321Z",
+        "total_price": 72360,
+        "created_at": "2023-09-24T08:05:58.222Z",
+        "updated_at": "2023-09-24T12:22:39.622Z",
+        "customer_id": "45cf93dc-38b2-405a-a5eb-45ff0e7b6f5f",
+        "medicine_id": "2ff220f1-ccd3-453c-8e82-d476c95f9537"
+      },
+      {
+        "id": "a1892a62-b1ec-4437-b887-c78c96e01929",
+        "quantity": 77972,
+        "purchase_date": "2023-09-24T21:35:04.555Z",
+        "total_price": 96583,
+        "created_at": "2023-09-24T07:52:16.514Z",
+        "updated_at": "2023-09-24T10:17:09.506Z",
+        "customer_id": "821084c7-edcc-4984-89f3-33ebd91f7790",
+        "medicine_id": "a01b665c-497c-4fe8-8508-1906121a2471"
+      },
+      {
+        "id": "fef9839b-4761-4379-a4a9-78f0c3f10832",
+        "quantity": 78398,
+        "purchase_date": "2023-09-24T19:57:11.512Z",
+        "total_price": 95768,
+        "created_at": "2023-09-25T00:15:11.379Z",
+        "updated_at": "2023-09-24T21:20:32.809Z",
+        "customer_id": "8fa6ecaa-c94b-4908-ac5f-a948a7d5bf6c",
+        "medicine_id": "a01b665c-497c-4fe8-8508-1906121a2471"
+      },
+      {
+        "id": "d75bf862-72c3-4705-bc74-e6bbd94c31c8",
+        "quantity": 35416,
+        "purchase_date": "2023-09-24T17:29:31.187Z",
+        "total_price": 26574,
+        "created_at": "2023-09-25T01:55:58.175Z",
+        "updated_at": "2023-09-24T16:05:34.136Z",
+        "customer_id": "65bee706-e6b3-4678-b7d6-8f6e10b71895",
+        "medicine_id": "02c3f320-8de0-438a-b54d-510b509c1b26"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "db0308ca-7775-433b-86bf-9cbf27840a3b",
+        "email": "Rhianna65@roq.tech",
+        "firstName": "Esteban",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67717334",
+        "tenantId": null
+      },
+      {
+        "reference": "8b614791-6558-4bbc-80a9-d926215e3664",
+        "email": "Jake11@roq.tech",
+        "firstName": "Raul",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ecbb774-80b4-4392-a6ce-f9e136d88410",
+        "email": "Jaycee_Koepp@roq.tech",
+        "firstName": "Melvina",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30319044",
+        "tenantId": null
+      },
+      {
+        "reference": "05607cdd-6b54-4065-825e-9efe3304b442",
+        "email": "Donnell63@roq.tech",
+        "firstName": "Janelle",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/688.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb78741e-1878-445a-b827-47693d02a342",
+        "email": "Lemuel.Cronin@roq.tech",
+        "firstName": "Alta",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/464.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "7cbba6a1-7840-4f53-9ac4-af5cdba22dc1",
+        "name": "ABC Suppliers",
+        "contact_number": "1234567890",
+        "address": "123 Main St",
+        "email": "supplier1@example.com",
+        "created_at": "2023-09-25T02:00:43.784Z",
+        "updated_at": "2023-09-24T23:16:44.439Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d277da4-c7ab-48ce-84de-bba05d9df8ff",
+        "name": "XYZ Suppliers",
+        "contact_number": "9876543210",
+        "address": "456 Elm St",
+        "email": "supplier2@example.com",
+        "created_at": "2023-09-25T02:51:38.530Z",
+        "updated_at": "2023-09-24T20:15:28.873Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "798cd04d-2627-419f-9144-5498c1d69ff4",
+        "name": "123 Suppliers",
+        "contact_number": "5555555555",
+        "address": "789 Oak St",
+        "email": "supplier3@example.com",
+        "created_at": "2023-09-24T10:53:40.532Z",
+        "updated_at": "2023-09-25T01:32:11.575Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fea66dc3-f0e2-41dc-a55f-2213b4a5106e",
+        "name": "Best Suppliers",
+        "contact_number": "1111111111",
+        "address": "321 Pine St",
+        "email": "supplier4@example.com",
+        "created_at": "2023-09-24T10:21:32.015Z",
+        "updated_at": "2023-09-24T06:37:54.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a484a4b8-b191-4a83-bfbc-5e33acd65a58",
+        "name": "Top Suppliers",
+        "contact_number": "9999999999",
+        "address": "654 Maple St",
+        "email": "supplier5@example.com",
+        "created_at": "2023-09-24T16:56:13.481Z",
+        "updated_at": "2023-09-24T06:30:36.352Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "edc0ee5d-bc2b-4926-a216-3ca05611a5cd",
+        "name": "Medicine A",
+        "description": "Pain reliever",
+        "manufacturer": "Manufacturer X",
+        "expiry_date": "2023-09-24T14:11:22.358Z",
+        "quantity": 16130,
+        "created_at": "2023-09-24T13:24:15.497Z",
+        "updated_at": "2023-09-24T05:11:15.976Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "3f4aef10-7729-412d-8133-aac124c7e6c1",
+        "name": "Medicine B",
+        "description": "Fever reducer",
+        "manufacturer": "Manufacturer Y",
+        "expiry_date": "2023-09-24T15:55:46.805Z",
+        "quantity": 37680,
+        "created_at": "2023-09-24T22:36:51.734Z",
+        "updated_at": "2023-09-24T05:20:17.055Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "d2c561be-7666-4235-bed4-2b280ce6804f",
+        "name": "Medicine C",
+        "description": "Cough suppressant",
+        "manufacturer": "Manufacturer Z",
+        "expiry_date": "2023-09-24T19:08:31.095Z",
+        "quantity": 69356,
+        "created_at": "2023-09-24T08:50:28.443Z",
+        "updated_at": "2023-09-24T11:53:19.064Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "2ff70c9e-31d7-45ac-895a-64f3180fa9fe",
+        "name": "Medicine D",
+        "description": "Antihistamine",
+        "manufacturer": "Manufacturer A",
+        "expiry_date": "2023-09-24T14:05:44.727Z",
+        "quantity": 94567,
+        "created_at": "2023-09-24T11:05:57.247Z",
+        "updated_at": "2023-09-24T20:11:43.091Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "1586af48-5c19-4d03-ac04-95981c43ed87",
+        "name": "Medicine E",
+        "description": "Antacid",
+        "manufacturer": "Manufacturer B",
+        "expiry_date": "2023-09-24T09:50:38.795Z",
+        "quantity": 69168,
+        "created_at": "2023-09-24T07:00:55.912Z",
+        "updated_at": "2023-09-24T19:59:18.031Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "dacb1196-a10d-4dff-bc39-c8dee6b383f6",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "phone_number": "5551112222",
+        "address": "123 Oak St",
+        "email": "customer1@example.com",
+        "created_at": "2023-09-24T15:36:52.798Z",
+        "updated_at": "2023-09-24T10:24:38.365Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e48e1fc-179b-47c5-9cc0-57eb76cc8157",
+        "first_name": "Robert",
+        "last_name": "Anderson",
+        "phone_number": "8884445555",
+        "address": "456 Pine St",
+        "email": "customer2@example.com",
+        "created_at": "2023-09-24T04:09:34.717Z",
+        "updated_at": "2023-09-25T01:54:19.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32f25935-ea03-460a-a522-7fbdc3691ffb",
+        "first_name": "Jessica",
+        "last_name": "Taylor",
+        "phone_number": "3337778888",
+        "address": "789 Elm St",
+        "email": "customer3@example.com",
+        "created_at": "2023-09-25T00:36:48.299Z",
+        "updated_at": "2023-09-24T22:28:16.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bffaf383-1d2c-40fa-a6f5-a61af3a22f81",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "phone_number": "9996663333",
+        "address": "321 Maple St",
+        "email": "customer4@example.com",
+        "created_at": "2023-09-25T02:57:39.924Z",
+        "updated_at": "2023-09-24T19:52:56.468Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19aba58d-fe03-48e4-8b40-4bcd2dd48d16",
+        "first_name": "Megan",
+        "last_name": "Miller",
+        "phone_number": "2229994444",
+        "address": "654 Main St",
+        "email": "customer5@example.com",
+        "created_at": "2023-09-24T04:46:51.324Z",
+        "updated_at": "2023-09-24T22:36:02.635Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "640df42f-9af4-4bcf-a0d2-f0262260348a",
+        "quantity": 41686,
+        "purchase_date": "2023-09-25T00:21:16.639Z",
+        "total_price": 89693,
+        "created_at": "2023-09-25T03:13:47.273Z",
+        "updated_at": "2023-09-24T21:47:37.968Z",
+        "customer_id": "bffaf383-1d2c-40fa-a6f5-a61af3a22f81",
+        "medicine_id": "d2c561be-7666-4235-bed4-2b280ce6804f"
+      },
+      {
+        "id": "8d147040-9d49-4dce-8003-62e126085473",
+        "quantity": 39202,
+        "purchase_date": "2023-09-25T03:15:00.452Z",
+        "total_price": 9536,
+        "created_at": "2023-09-24T14:23:54.999Z",
+        "updated_at": "2023-09-24T18:14:41.623Z",
+        "customer_id": "bffaf383-1d2c-40fa-a6f5-a61af3a22f81",
+        "medicine_id": "2ff70c9e-31d7-45ac-895a-64f3180fa9fe"
+      },
+      {
+        "id": "767a22a8-ae6e-481e-b468-5dbeeac9969f",
+        "quantity": 49084,
+        "purchase_date": "2023-09-24T05:52:22.009Z",
+        "total_price": 82003,
+        "created_at": "2023-09-25T01:21:27.435Z",
+        "updated_at": "2023-09-25T03:08:12.740Z",
+        "customer_id": "32f25935-ea03-460a-a522-7fbdc3691ffb",
+        "medicine_id": "1586af48-5c19-4d03-ac04-95981c43ed87"
+      },
+      {
+        "id": "e768fb04-369a-433a-9860-4951b3a97455",
+        "quantity": 90225,
+        "purchase_date": "2023-09-24T04:47:02.042Z",
+        "total_price": 28097,
+        "created_at": "2023-09-24T23:29:34.890Z",
+        "updated_at": "2023-09-25T03:13:06.208Z",
+        "customer_id": "32f25935-ea03-460a-a522-7fbdc3691ffb",
+        "medicine_id": "1586af48-5c19-4d03-ac04-95981c43ed87"
+      },
+      {
+        "id": "67e4d77f-7010-4582-82cf-2cdbb5b6af82",
+        "quantity": 84439,
+        "purchase_date": "2023-09-24T09:09:31.840Z",
+        "total_price": 64119,
+        "created_at": "2023-09-25T01:41:11.803Z",
+        "updated_at": "2023-09-24T14:24:04.949Z",
+        "customer_id": "dacb1196-a10d-4dff-bc39-c8dee6b383f6",
+        "medicine_id": "d2c561be-7666-4235-bed4-2b280ce6804f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7f85496b-b91f-4a80-bf4d-bbb81afd297a",
+        "email": "Marisol.Hackett@roq.tech",
+        "firstName": "Sam",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c933c9a5-faea-4636-9736-b63b22688f45",
+        "email": "Chauncey.Abbott@roq.tech",
+        "firstName": "Emmett",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84c56dd0-0c01-4fc4-9afd-cc2523256730",
+        "email": "Tristin6@roq.tech",
+        "firstName": "Kaylie",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e6de0ded-b9b0-489b-9087-adc0b7fa850a",
+        "email": "Eleanore_Heathcote@roq.tech",
+        "firstName": "Dayna",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50246378",
+        "tenantId": null
+      },
+      {
+        "reference": "e826e344-368b-4ce5-bcf0-bc9732f0bbbb",
+        "email": "Marjorie.Ortiz@roq.tech",
+        "firstName": "Lilyan",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22524440",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "939cfaa7-bfe1-48f0-9f00-8627fdcf7e2f",
+        "name": "ABC Suppliers",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "info@abcsuppliers.com",
+        "created_at": "2023-09-25T03:33:27.870Z",
+        "updated_at": "2023-09-24T19:44:59.884Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61d6bd28-0fe5-4d2c-a168-94c7dcd4f26e",
+        "name": "XYZ Distributors",
+        "contact_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "email": "sales@xyzdistributors.com",
+        "created_at": "2023-09-24T10:41:58.547Z",
+        "updated_at": "2023-09-25T00:18:10.931Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc787b15-4247-4710-8901-a508c33dc1b8",
+        "name": "123 Pharma",
+        "contact_number": "5555555555",
+        "address": "789 Oak Drive",
+        "email": "contact@123pharma.com",
+        "created_at": "2023-09-24T09:19:59.752Z",
+        "updated_at": "2023-09-24T22:48:10.254Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c2e982d-bb88-47e7-ace9-ceeca1d54791",
+        "name": "Best Medical Supplies",
+        "contact_number": "1111111111",
+        "address": "321 Pine Road",
+        "email": "info@bestmedsupplies.com",
+        "created_at": "2023-09-24T05:23:35.835Z",
+        "updated_at": "2023-09-24T17:18:57.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "562d1d9c-2d1c-47c8-9964-10f59b57039c",
+        "name": "Global Health Solutions",
+        "contact_number": "9999999999",
+        "address": "654 Maple Lane",
+        "email": "support@globalhealthsolutions.com",
+        "created_at": "2023-09-25T03:05:45.238Z",
+        "updated_at": "2023-09-24T07:58:37.604Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "b6846bed-b12c-43fc-b587-29f405a458c1",
+        "name": "PainAway",
+        "description": "Relieves pain and inflammation",
+        "manufacturer": "PharmaCorp",
+        "expiry_date": "2023-09-24T18:20:22.440Z",
+        "quantity": 45355,
+        "created_at": "2023-09-24T13:23:10.827Z",
+        "updated_at": "2023-09-24T22:43:15.190Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "e7918814-5628-4332-b890-b52a49c65ec0",
+        "name": "ColdRelief",
+        "description": "Provides relief from cold symptoms",
+        "manufacturer": "MediLife",
+        "expiry_date": "2023-09-25T02:11:41.513Z",
+        "quantity": 62254,
+        "created_at": "2023-09-24T16:55:21.468Z",
+        "updated_at": "2023-09-24T15:06:51.129Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "93db2726-88db-4efc-b78d-9b95eb7c8ef4",
+        "name": "AllergyFree",
+        "description": "Effective allergy medication",
+        "manufacturer": "Wellness Labs",
+        "expiry_date": "2023-09-24T18:36:56.301Z",
+        "quantity": 40489,
+        "created_at": "2023-09-24T16:19:27.183Z",
+        "updated_at": "2023-09-24T13:40:50.219Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "414703aa-171f-4865-860a-ebe6142daa24",
+        "name": "SleepWell",
+        "description": "Promotes restful sleep",
+        "manufacturer": "HealthMakers",
+        "expiry_date": "2023-09-25T01:25:43.295Z",
+        "quantity": 97307,
+        "created_at": "2023-09-24T07:56:58.606Z",
+        "updated_at": "2023-09-25T02:05:04.907Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "f953d2d6-5e90-4a11-a9c3-2e5be06a8b37",
+        "name": "HeartHealth",
+        "description": "Supports heart health",
+        "manufacturer": "Nature's Cure",
+        "expiry_date": "2023-09-24T04:31:25.053Z",
+        "quantity": 17592,
+        "created_at": "2023-09-24T14:43:31.797Z",
+        "updated_at": "2023-09-24T17:23:14.206Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "5d89b6e9-6902-4c04-b62c-dde1a058f007",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "phone_number": "5551112222",
+        "address": "789 Elm Street",
+        "email": "emily.johnson@example.com",
+        "created_at": "2023-09-24T12:18:00.793Z",
+        "updated_at": "2023-09-24T16:20:47.887Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "759a7446-5698-4c37-b956-dc96a32ecb6f",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "phone_number": "9998887777",
+        "address": "123 Oak Avenue",
+        "email": "daniel.smith@example.com",
+        "created_at": "2023-09-24T21:35:48.286Z",
+        "updated_at": "2023-09-24T16:56:28.352Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d212c634-1653-416e-ab2b-1f5ebf0e87f5",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "phone_number": "3334445555",
+        "address": "456 Pine Drive",
+        "email": "olivia.brown@example.com",
+        "created_at": "2023-09-24T14:29:14.843Z",
+        "updated_at": "2023-09-24T12:08:33.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42853675-8e44-45da-9c48-5482d1af2707",
+        "first_name": "Jacob",
+        "last_name": "Davis",
+        "phone_number": "7772221111",
+        "address": "987 Maple Road",
+        "email": "jacob.davis@example.com",
+        "created_at": "2023-09-24T21:22:32.776Z",
+        "updated_at": "2023-09-24T06:02:17.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82f7a475-a3dc-4611-a59f-e1f9de693ebd",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "phone_number": "4445556666",
+        "address": "654 Cedar Lane",
+        "email": "sophia.wilson@example.com",
+        "created_at": "2023-09-24T11:20:31.123Z",
+        "updated_at": "2023-09-24T21:42:27.812Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "d38018c8-46df-4e51-98a5-8cac9d93139d",
+        "quantity": 10287,
+        "purchase_date": "2023-09-24T07:50:40.089Z",
+        "total_price": 6017,
+        "created_at": "2023-09-24T18:27:20.738Z",
+        "updated_at": "2023-09-24T06:33:29.957Z",
+        "customer_id": "42853675-8e44-45da-9c48-5482d1af2707",
+        "medicine_id": "414703aa-171f-4865-860a-ebe6142daa24"
+      },
+      {
+        "id": "35ac5834-bb6c-4f61-97c8-e54589d2f602",
+        "quantity": 5957,
+        "purchase_date": "2023-09-25T01:36:47.250Z",
+        "total_price": 56162,
+        "created_at": "2023-09-24T10:18:18.392Z",
+        "updated_at": "2023-09-24T19:41:53.073Z",
+        "customer_id": "759a7446-5698-4c37-b956-dc96a32ecb6f",
+        "medicine_id": "e7918814-5628-4332-b890-b52a49c65ec0"
+      },
+      {
+        "id": "0c2c23ff-3025-4e52-9bcd-0ecc9637bb06",
+        "quantity": 80318,
+        "purchase_date": "2023-09-24T05:26:36.887Z",
+        "total_price": 94462,
+        "created_at": "2023-09-24T14:52:44.237Z",
+        "updated_at": "2023-09-24T13:41:39.702Z",
+        "customer_id": "d212c634-1653-416e-ab2b-1f5ebf0e87f5",
+        "medicine_id": "f953d2d6-5e90-4a11-a9c3-2e5be06a8b37"
+      },
+      {
+        "id": "81d32494-4937-4883-a2e8-3b7e1359a1b7",
+        "quantity": 58040,
+        "purchase_date": "2023-09-24T10:54:12.978Z",
+        "total_price": 94751,
+        "created_at": "2023-09-24T21:52:15.121Z",
+        "updated_at": "2023-09-24T13:00:17.844Z",
+        "customer_id": "759a7446-5698-4c37-b956-dc96a32ecb6f",
+        "medicine_id": "f953d2d6-5e90-4a11-a9c3-2e5be06a8b37"
+      },
+      {
+        "id": "077b6bc9-74a0-4e0b-8b0c-6d400e4abedb",
+        "quantity": 49324,
+        "purchase_date": "2023-09-24T17:44:34.814Z",
+        "total_price": 42277,
+        "created_at": "2023-09-24T09:48:52.775Z",
+        "updated_at": "2023-09-25T02:27:00.794Z",
+        "customer_id": "42853675-8e44-45da-9c48-5482d1af2707",
+        "medicine_id": "f953d2d6-5e90-4a11-a9c3-2e5be06a8b37"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "48994c2e-b962-4d60-aaaf-ed8dff677831",
+        "email": "Winston_Conroy82@roq.tech",
+        "firstName": "Heloise",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91989372",
+        "tenantId": null
+      },
+      {
+        "reference": "3b55f872-921c-4ff9-bded-24a42fadc5bf",
+        "email": "Anabel.McKenzie@roq.tech",
+        "firstName": "Ariane",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/187.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d842f5c-b03b-4a84-a7f2-c68789b1b2ac",
+        "email": "Juvenal.Nitzsche@roq.tech",
+        "firstName": "Noe",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/87.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7df5905-1da5-4f97-b510-27e7fe7e152b",
+        "email": "Gilda91@roq.tech",
+        "firstName": "Rasheed",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/747.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64965e1d-d4a6-4bf3-8e0e-8b2bb7093b82",
+        "email": "Ashlee57@roq.tech",
+        "firstName": "Cullen",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30093727",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "8161adae-f089-4acf-b2db-27051316f7e2",
+        "name": "ABC Supplier",
+        "contact_number": "1234567890",
+        "address": "123 Main St",
+        "email": "supplier1@example.com",
+        "created_at": "2023-09-24T09:55:37.077Z",
+        "updated_at": "2023-09-24T18:02:40.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3372da92-a97b-453f-ba06-c06ec3698ccf",
+        "name": "XYZ Supplier",
+        "contact_number": "9876543210",
+        "address": "456 Elm St",
+        "email": "supplier2@example.com",
+        "created_at": "2023-09-25T02:23:29.822Z",
+        "updated_at": "2023-09-24T08:48:25.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf4bdeb8-af06-48da-8f93-86cb94ad6368",
+        "name": "123 Supplier",
+        "contact_number": "5555555555",
+        "address": "789 Oak St",
+        "email": "supplier3@example.com",
+        "created_at": "2023-09-24T21:09:22.004Z",
+        "updated_at": "2023-09-24T11:20:10.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fb13aa0-f4ce-4799-b4f7-2226b86cee33",
+        "name": "Test Supplier",
+        "contact_number": "9999999999",
+        "address": "321 Pine St",
+        "email": "supplier4@example.com",
+        "created_at": "2023-09-24T16:26:28.830Z",
+        "updated_at": "2023-09-24T14:10:57.012Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0555caa5-11e3-4f1e-8c8d-2a242ea05ab1",
+        "name": "Sample Supplier",
+        "contact_number": "1111111111",
+        "address": "654 Maple St",
+        "email": "supplier5@example.com",
+        "created_at": "2023-09-24T05:24:01.988Z",
+        "updated_at": "2023-09-24T04:38:36.325Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "41e13502-05d5-4a08-a9d5-318f70f81d1c",
+        "name": "Medicine A",
+        "description": "Description A",
+        "manufacturer": "Manufacturer A",
+        "expiry_date": "2023-09-24T08:57:05.365Z",
+        "quantity": 34394,
+        "created_at": "2023-09-24T16:25:07.755Z",
+        "updated_at": "2023-09-24T09:52:19.403Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "f86d27ba-bda2-479a-af8c-81a15e8144a6",
+        "name": "Medicine B",
+        "description": "Description B",
+        "manufacturer": "Manufacturer B",
+        "expiry_date": "2023-09-25T00:58:03.243Z",
+        "quantity": 1566,
+        "created_at": "2023-09-24T06:38:44.759Z",
+        "updated_at": "2023-09-25T00:09:11.622Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "cdabf511-5aa8-424c-8ecc-189c9ab856da",
+        "name": "Medicine C",
+        "description": "Description C",
+        "manufacturer": "Manufacturer C",
+        "expiry_date": "2023-09-24T11:14:32.618Z",
+        "quantity": 24072,
+        "created_at": "2023-09-24T20:23:20.954Z",
+        "updated_at": "2023-09-24T10:45:51.910Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "507bb75d-cd5f-4010-af5b-ba2eacc95be9",
+        "name": "Medicine D",
+        "description": "Description D",
+        "manufacturer": "Manufacturer D",
+        "expiry_date": "2023-09-24T15:07:52.741Z",
+        "quantity": 35980,
+        "created_at": "2023-09-25T02:52:39.056Z",
+        "updated_at": "2023-09-24T10:43:26.300Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "26b146ab-7bd1-49e2-98b4-e524a9a7af90",
+        "name": "Medicine E",
+        "description": "Description E",
+        "manufacturer": "Manufacturer E",
+        "expiry_date": "2023-09-24T04:30:09.117Z",
+        "quantity": 34642,
+        "created_at": "2023-09-24T10:57:27.273Z",
+        "updated_at": "2023-09-24T06:33:46.274Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "2adbcda4-d041-45c4-ad00-4ed63c42782a",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone_number": "1112223333",
+        "address": "123 Main St",
+        "email": "customer1@example.com",
+        "created_at": "2023-09-24T04:09:12.839Z",
+        "updated_at": "2023-09-24T05:52:58.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a66cc36-77d1-4650-95c4-1485b64e8f6d",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "phone_number": "4445556666",
+        "address": "456 Elm St",
+        "email": "customer2@example.com",
+        "created_at": "2023-09-24T07:34:34.487Z",
+        "updated_at": "2023-09-25T03:39:54.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a50b27b-8c3c-4d27-892b-b18f5a86c5c6",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "phone_number": "7778889999",
+        "address": "789 Oak St",
+        "email": "customer3@example.com",
+        "created_at": "2023-09-24T21:10:05.222Z",
+        "updated_at": "2023-09-24T22:21:32.116Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e1b9681-2fd7-44fe-bcbe-afd391529509",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "phone_number": "1234567890",
+        "address": "321 Pine St",
+        "email": "customer4@example.com",
+        "created_at": "2023-09-24T20:26:20.647Z",
+        "updated_at": "2023-09-24T20:48:00.109Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "328d154c-60a1-4e17-b5a8-1b6a054fbc8e",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "phone_number": "0987654321",
+        "address": "654 Maple St",
+        "email": "customer5@example.com",
+        "created_at": "2023-09-25T03:51:15.941Z",
+        "updated_at": "2023-09-24T15:14:14.882Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "8ae02311-022f-404e-8ad7-66cf1671de76",
+        "quantity": 51395,
+        "purchase_date": "2023-09-24T19:04:50.949Z",
+        "total_price": 65399,
+        "created_at": "2023-09-24T22:41:14.394Z",
+        "updated_at": "2023-09-25T03:36:11.853Z",
+        "customer_id": "1e1b9681-2fd7-44fe-bcbe-afd391529509",
+        "medicine_id": "41e13502-05d5-4a08-a9d5-318f70f81d1c"
+      },
+      {
+        "id": "69f2a910-d77f-4617-bdf9-a66750b6cd31",
+        "quantity": 21811,
+        "purchase_date": "2023-09-24T13:46:49.446Z",
+        "total_price": 75937,
+        "created_at": "2023-09-24T05:59:32.324Z",
+        "updated_at": "2023-09-25T01:19:33.815Z",
+        "customer_id": "328d154c-60a1-4e17-b5a8-1b6a054fbc8e",
+        "medicine_id": "cdabf511-5aa8-424c-8ecc-189c9ab856da"
+      },
+      {
+        "id": "eebb4203-820f-4f34-8882-88b46e42f314",
+        "quantity": 25140,
+        "purchase_date": "2023-09-24T11:11:40.940Z",
+        "total_price": 42225,
+        "created_at": "2023-09-25T01:12:01.922Z",
+        "updated_at": "2023-09-24T04:13:46.044Z",
+        "customer_id": "3a50b27b-8c3c-4d27-892b-b18f5a86c5c6",
+        "medicine_id": "cdabf511-5aa8-424c-8ecc-189c9ab856da"
+      },
+      {
+        "id": "be74c0b4-c8bb-4d88-8737-bbe9c4ec53a4",
+        "quantity": 88591,
+        "purchase_date": "2023-09-24T04:43:54.474Z",
+        "total_price": 37246,
+        "created_at": "2023-09-24T04:41:11.501Z",
+        "updated_at": "2023-09-24T10:33:48.190Z",
+        "customer_id": "328d154c-60a1-4e17-b5a8-1b6a054fbc8e",
+        "medicine_id": "41e13502-05d5-4a08-a9d5-318f70f81d1c"
+      },
+      {
+        "id": "07ff805a-5ff6-4bc5-8c95-e5c2073df019",
+        "quantity": 67282,
+        "purchase_date": "2023-09-24T04:55:08.649Z",
+        "total_price": 30400,
+        "created_at": "2023-09-24T20:28:03.075Z",
+        "updated_at": "2023-09-24T11:52:42.689Z",
+        "customer_id": "1e1b9681-2fd7-44fe-bcbe-afd391529509",
+        "medicine_id": "f86d27ba-bda2-479a-af8c-81a15e8144a6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e7362971-3c2e-44d4-b41b-3c74300e91c4",
+        "email": "Declan.Dare@roq.tech",
+        "firstName": "Eugene",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/36.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f5260a7c-9f36-4e6b-86cb-ecf36ef2e826",
+        "email": "Katharina20@roq.tech",
+        "firstName": "Damien",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37908535",
+        "tenantId": null
+      },
+      {
+        "reference": "a06a36f4-379e-444e-9c8a-93abeb0a403a",
+        "email": "Lavina.Orn@roq.tech",
+        "firstName": "Gisselle",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11871010",
+        "tenantId": null
+      },
+      {
+        "reference": "56231b00-b0bf-46a1-af45-4b2c324eb8ce",
+        "email": "Eric75@roq.tech",
+        "firstName": "Walton",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82817307",
+        "tenantId": null
+      },
+      {
+        "reference": "c6b0c116-5aa2-4053-bb12-1b59f2490794",
+        "email": "Carmine.Lakin@roq.tech",
+        "firstName": "Claude",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1225.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "1c4320e4-e1c8-4e7d-bbfe-8c415e051a14",
+        "name": "ABC Suppliers",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "info@abcsuppliers.com",
+        "created_at": "2023-09-24T12:06:09.105Z",
+        "updated_at": "2023-09-24T15:00:55.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12cacb41-ab16-4d98-8dd6-d37fe52a8ec2",
+        "name": "XYZ Company",
+        "contact_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "email": "sales@xyzcompany.com",
+        "created_at": "2023-09-24T23:50:10.056Z",
+        "updated_at": "2023-09-25T00:11:37.397Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49577058-bc1f-41a1-be7e-8f1c90b4f19d",
+        "name": "123 Suppliers",
+        "contact_number": "5555555555",
+        "address": "789 Oak Drive",
+        "email": "contact@123suppliers.com",
+        "created_at": "2023-09-24T19:46:55.130Z",
+        "updated_at": "2023-09-24T04:42:37.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd96f190-2926-47bf-91aa-ca0d79aff336",
+        "name": "Best Pharma",
+        "contact_number": "9999999999",
+        "address": "321 Pine Lane",
+        "email": "info@bestpharma.com",
+        "created_at": "2023-09-24T09:46:35.531Z",
+        "updated_at": "2023-09-24T23:52:08.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ebb0155-e5f5-46fd-9aa9-3e29f0877f27",
+        "name": "Global Distributors",
+        "contact_number": "1111111111",
+        "address": "654 Maple Road",
+        "email": "sales@globaldistributors.com",
+        "created_at": "2023-09-24T13:57:24.895Z",
+        "updated_at": "2023-09-24T04:16:24.813Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "52126640-1bb0-4214-b245-ff6c5ff3fc56",
+        "name": "Paracetamol",
+        "description": "Relieves pain and reduces fever",
+        "manufacturer": "ABC Pharmaceuticals",
+        "expiry_date": "2023-09-24T20:40:43.514Z",
+        "quantity": 28817,
+        "created_at": "2023-09-25T03:07:05.688Z",
+        "updated_at": "2023-09-24T06:39:47.136Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "6d6c3fb3-bf68-4cc6-9938-ffc0c5b4654e",
+        "name": "Ibuprofen",
+        "description": "Effective for inflammation and pain relief",
+        "manufacturer": "XYZ Labs",
+        "expiry_date": "2023-09-24T22:53:06.540Z",
+        "quantity": 47717,
+        "created_at": "2023-09-24T13:07:58.458Z",
+        "updated_at": "2023-09-24T10:58:06.030Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "25fbf048-c5d8-4039-8d33-18664865309b",
+        "name": "Aspirin",
+        "description": "Commonly used as a painkiller",
+        "manufacturer": "123 Pharma",
+        "expiry_date": "2023-09-24T18:19:06.688Z",
+        "quantity": 95267,
+        "created_at": "2023-09-24T23:42:58.621Z",
+        "updated_at": "2023-09-25T01:28:23.915Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "277ab559-1c9e-4cb2-8b52-62fb365eedcc",
+        "name": "Ciprofloxacin",
+        "description": "Treats bacterial infections",
+        "manufacturer": "Best Medicine Co.",
+        "expiry_date": "2023-09-24T07:01:02.201Z",
+        "quantity": 3682,
+        "created_at": "2023-09-24T15:26:36.622Z",
+        "updated_at": "2023-09-25T02:01:09.716Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "622b5278-3675-408c-8db4-90c204d708cd",
+        "name": "Amoxicillin",
+        "description": "Fights against various infections",
+        "manufacturer": "Global Healthcare",
+        "expiry_date": "2023-09-25T02:20:27.783Z",
+        "quantity": 72593,
+        "created_at": "2023-09-24T07:19:14.632Z",
+        "updated_at": "2023-09-25T03:15:51.329Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "57f6846f-ea7d-405e-8609-e40fe7de487f",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "john.doe@example.com",
+        "created_at": "2023-09-24T23:35:33.005Z",
+        "updated_at": "2023-09-24T11:34:46.447Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8f9c861-8905-442a-9bad-475c90375f77",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "phone_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "email": "jane.smith@example.com",
+        "created_at": "2023-09-24T11:09:22.159Z",
+        "updated_at": "2023-09-24T17:07:49.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ee33d58-4027-4095-a4ac-6bd94eaa49f3",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "phone_number": "5555555555",
+        "address": "789 Oak Drive",
+        "email": "michael.brown@example.com",
+        "created_at": "2023-09-25T01:34:43.715Z",
+        "updated_at": "2023-09-25T03:25:29.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ca8c0d9-71c5-4264-a416-bf08146d45b9",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "phone_number": "9999999999",
+        "address": "321 Pine Lane",
+        "email": "sarah.jones@example.com",
+        "created_at": "2023-09-24T07:54:26.745Z",
+        "updated_at": "2023-09-25T01:52:01.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fea30307-ea4b-4a98-bdbb-cac45c8b5150",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "phone_number": "1111111111",
+        "address": "654 Maple Road",
+        "email": "robert.wilson@example.com",
+        "created_at": "2023-09-24T14:47:12.609Z",
+        "updated_at": "2023-09-24T05:51:13.253Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "66106304-dddd-48ee-ace4-177f9f2e5719",
+        "quantity": 60168,
+        "purchase_date": "2023-09-24T10:35:01.859Z",
+        "total_price": 60956,
+        "created_at": "2023-09-24T15:45:28.244Z",
+        "updated_at": "2023-09-24T22:45:34.800Z",
+        "customer_id": "7ca8c0d9-71c5-4264-a416-bf08146d45b9",
+        "medicine_id": "622b5278-3675-408c-8db4-90c204d708cd"
+      },
+      {
+        "id": "69887598-fb7b-4ca9-a132-12351a3c7ef3",
+        "quantity": 72858,
+        "purchase_date": "2023-09-24T16:05:06.723Z",
+        "total_price": 40691,
+        "created_at": "2023-09-24T19:32:08.886Z",
+        "updated_at": "2023-09-24T15:02:21.723Z",
+        "customer_id": "e8f9c861-8905-442a-9bad-475c90375f77",
+        "medicine_id": "52126640-1bb0-4214-b245-ff6c5ff3fc56"
+      },
+      {
+        "id": "590f6e76-43fe-4a27-b640-9db4a155492c",
+        "quantity": 97773,
+        "purchase_date": "2023-09-25T03:48:13.992Z",
+        "total_price": 10487,
+        "created_at": "2023-09-24T12:20:01.861Z",
+        "updated_at": "2023-09-24T21:24:10.934Z",
+        "customer_id": "57f6846f-ea7d-405e-8609-e40fe7de487f",
+        "medicine_id": "25fbf048-c5d8-4039-8d33-18664865309b"
+      },
+      {
+        "id": "a2de1534-aa66-4eef-a2de-e0361c14d3f5",
+        "quantity": 85746,
+        "purchase_date": "2023-09-24T22:42:00.178Z",
+        "total_price": 64157,
+        "created_at": "2023-09-24T08:33:16.131Z",
+        "updated_at": "2023-09-24T22:15:14.356Z",
+        "customer_id": "8ee33d58-4027-4095-a4ac-6bd94eaa49f3",
+        "medicine_id": "277ab559-1c9e-4cb2-8b52-62fb365eedcc"
+      },
+      {
+        "id": "82a5544e-9012-4b05-b71f-c9ab65996d36",
+        "quantity": 14918,
+        "purchase_date": "2023-09-24T16:28:54.209Z",
+        "total_price": 78910,
+        "created_at": "2023-09-24T15:27:56.831Z",
+        "updated_at": "2023-09-24T18:09:02.889Z",
+        "customer_id": "e8f9c861-8905-442a-9bad-475c90375f77",
+        "medicine_id": "52126640-1bb0-4214-b245-ff6c5ff3fc56"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e50ffa80-a3f6-470c-930c-c3e395aebb49",
+        "email": "Modesta93@roq.tech",
+        "firstName": "Clinton",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/734.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a508358a-a759-4ffc-8aeb-0dbff581868e",
+        "email": "Aaron_Cruickshank40@roq.tech",
+        "firstName": "Axel",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/688.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cf80e5b-8a97-4fee-8692-2f0a21afc571",
+        "email": "Larry.Hyatt@roq.tech",
+        "firstName": "Hugh",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/45.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1ae035b1-4af3-4bce-929c-e26a95f26003",
+        "email": "Jodie_Torphy53@roq.tech",
+        "firstName": "Justyn",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/348.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d310833e-39e5-4523-9f3f-a004d6190dce",
+        "email": "Shany_Fritsch27@roq.tech",
+        "firstName": "Madeline",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22239909",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "supplier": [
+      {
+        "id": "9c277beb-6dac-4291-8fe9-393b8ab58a07",
+        "name": "ABC Suppliers",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "info@abcsuppliers.com",
+        "created_at": "2023-09-24T17:52:27.411Z",
+        "updated_at": "2023-09-24T08:39:12.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1a930dc-7780-4a93-9a04-24b2714f8e17",
+        "name": "XYZ Distributors",
+        "contact_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "email": "sales@xyzdistributors.com",
+        "created_at": "2023-09-24T09:47:34.292Z",
+        "updated_at": "2023-09-24T15:56:43.549Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ecee81a-140f-402c-bb2a-f168579f2ae8",
+        "name": "123 Pharma",
+        "contact_number": "5555555555",
+        "address": "789 Oak Drive",
+        "email": "contact@123pharma.com",
+        "created_at": "2023-09-24T04:19:46.205Z",
+        "updated_at": "2023-09-24T09:27:58.996Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed4905ce-e1b4-47b8-a13b-1060681ee025",
+        "name": "Best Medical Supplies",
+        "contact_number": "1111111111",
+        "address": "321 Pine Lane",
+        "email": "info@bestmedicalsupplies.com",
+        "created_at": "2023-09-25T00:37:13.921Z",
+        "updated_at": "2023-09-25T03:49:55.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6d152a6-8cf7-4607-b6a9-3821a8b05955",
+        "name": "Global Health",
+        "contact_number": "9999999999",
+        "address": "654 Maple Road",
+        "email": "support@globalhealth.com",
+        "created_at": "2023-09-24T15:08:34.154Z",
+        "updated_at": "2023-09-24T17:01:25.960Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medicine": [
+      {
+        "id": "ccd7a956-3592-4d85-ae9b-82833f4b3eb7",
+        "name": "PainAway",
+        "description": "Relieves pain and discomfort",
+        "manufacturer": "ABC Pharmaceuticals",
+        "expiry_date": "2023-09-24T12:09:03.649Z",
+        "quantity": 70774,
+        "created_at": "2023-09-24T21:20:58.453Z",
+        "updated_at": "2023-09-24T10:45:08.151Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "29a45a20-21e3-44e8-a486-5cc350ade60b",
+        "name": "ColdRelief",
+        "description": "Provides relief from cold symptoms",
+        "manufacturer": "XYZ Labs",
+        "expiry_date": "2023-09-24T05:45:11.622Z",
+        "quantity": 3758,
+        "created_at": "2023-09-24T08:27:55.005Z",
+        "updated_at": "2023-09-24T05:50:30.497Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "dc7a2aac-5f72-4b54-aa1c-e484194ef547",
+        "name": "AllergyFree",
+        "description": "Helps alleviate allergies",
+        "manufacturer": "123 Medical",
+        "expiry_date": "2023-09-24T19:01:18.373Z",
+        "quantity": 70663,
+        "created_at": "2023-09-24T19:38:33.346Z",
+        "updated_at": "2023-09-24T21:49:50.971Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "b8378d68-819b-4861-ab6a-f8f16fba4a44",
+        "name": "SleepWell",
+        "description": "Promotes restful sleep",
+        "manufacturer": "Best Pharma",
+        "expiry_date": "2023-09-24T19:47:44.164Z",
+        "quantity": 20825,
+        "created_at": "2023-09-24T22:44:49.578Z",
+        "updated_at": "2023-09-24T19:32:33.348Z",
+        "pharmacy_id": "main_entity_pk"
+      },
+      {
+        "id": "9c298bb4-8f19-4ec0-b516-52a3146f727f",
+        "name": "DigestEase",
+        "description": "Aids digestion",
+        "manufacturer": "Global Health",
+        "expiry_date": "2023-09-24T16:51:00.812Z",
+        "quantity": 20135,
+        "created_at": "2023-09-24T05:56:31.861Z",
+        "updated_at": "2023-09-24T22:16:18.070Z",
+        "pharmacy_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a4a96754-c556-4c4c-af29-f291c710a684",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone_number": "1234567890",
+        "address": "123 Main Street",
+        "email": "john.doe@example.com",
+        "created_at": "2023-09-24T17:41:32.093Z",
+        "updated_at": "2023-09-24T23:12:58.715Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "573193e6-f6f8-4677-b920-849eaf1c8ad4",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "phone_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "email": "jane.smith@example.com",
+        "created_at": "2023-09-24T10:11:42.023Z",
+        "updated_at": "2023-09-24T12:01:37.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38f459db-0705-4b19-8d1a-d1ce82f30bde",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "phone_number": "5555555555",
+        "address": "789 Oak Drive",
+        "email": "michael.brown@example.com",
+        "created_at": "2023-09-24T09:19:12.671Z",
+        "updated_at": "2023-09-25T00:18:56.369Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca6396bc-f6a1-434a-b6ee-201a51cf0904",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "phone_number": "1111111111",
+        "address": "321 Pine Lane",
+        "email": "sarah.jones@example.com",
+        "created_at": "2023-09-24T23:57:22.665Z",
+        "updated_at": "2023-09-24T15:37:52.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06f36c79-217c-4c3b-9d90-036002fdbed9",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "phone_number": "9999999999",
+        "address": "654 Maple Road",
+        "email": "david.wilson@example.com",
+        "created_at": "2023-09-24T16:33:02.603Z",
+        "updated_at": "2023-09-24T10:10:33.434Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "08277b0d-a2d1-423c-afbb-bff2dac15313",
+        "quantity": 75680,
+        "purchase_date": "2023-09-24T14:06:41.707Z",
+        "total_price": 41021,
+        "created_at": "2023-09-25T00:24:34.482Z",
+        "updated_at": "2023-09-24T20:48:32.991Z",
+        "customer_id": "573193e6-f6f8-4677-b920-849eaf1c8ad4",
+        "medicine_id": "29a45a20-21e3-44e8-a486-5cc350ade60b"
+      },
+      {
+        "id": "3bea5ebb-85ea-49c1-99af-d94535a52c49",
+        "quantity": 90177,
+        "purchase_date": "2023-09-24T04:16:24.525Z",
+        "total_price": 96711,
+        "created_at": "2023-09-24T10:35:42.155Z",
+        "updated_at": "2023-09-24T04:41:14.450Z",
+        "customer_id": "06f36c79-217c-4c3b-9d90-036002fdbed9",
+        "medicine_id": "dc7a2aac-5f72-4b54-aa1c-e484194ef547"
+      },
+      {
+        "id": "bc806ea6-ec4e-4de5-9c19-ec723afb06c7",
+        "quantity": 20124,
+        "purchase_date": "2023-09-24T15:38:25.144Z",
+        "total_price": 66906,
+        "created_at": "2023-09-24T15:04:43.072Z",
+        "updated_at": "2023-09-24T22:06:45.415Z",
+        "customer_id": "38f459db-0705-4b19-8d1a-d1ce82f30bde",
+        "medicine_id": "dc7a2aac-5f72-4b54-aa1c-e484194ef547"
+      },
+      {
+        "id": "a09245cb-1b72-446e-b678-05b4dfbe3f70",
+        "quantity": 74359,
+        "purchase_date": "2023-09-24T20:35:15.259Z",
+        "total_price": 62780,
+        "created_at": "2023-09-24T11:23:57.316Z",
+        "updated_at": "2023-09-24T20:17:28.937Z",
+        "customer_id": "ca6396bc-f6a1-434a-b6ee-201a51cf0904",
+        "medicine_id": "9c298bb4-8f19-4ec0-b516-52a3146f727f"
+      },
+      {
+        "id": "13e1cf29-15bb-4a9b-91f2-3ce9867e5157",
+        "quantity": 84927,
+        "purchase_date": "2023-09-25T01:24:09.007Z",
+        "total_price": 53441,
+        "created_at": "2023-09-24T20:08:19.975Z",
+        "updated_at": "2023-09-24T05:26:00.033Z",
+        "customer_id": "06f36c79-217c-4c3b-9d90-036002fdbed9",
+        "medicine_id": "dc7a2aac-5f72-4b54-aa1c-e484194ef547"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b4f6bc44-9fba-41e7-a644-0d16c15e0d31",
+        "email": "Demarcus_Hills@roq.tech",
+        "firstName": "Enola",
+        "lastName": "Willms-Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91843718",
+        "tenantId": null
+      },
+      {
+        "reference": "ec837e92-ba12-4f78-b01b-5455f1b9dfec",
+        "email": "Damon_Maggio@roq.tech",
+        "firstName": "Trevor",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/708.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1c6bae73-c444-41be-ad40-c689e495b9fb",
+        "email": "Khalid61@roq.tech",
+        "firstName": "Turner",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13938634",
+        "tenantId": null
+      },
+      {
+        "reference": "d1c569d0-6b42-4b52-a61b-e6f9b34a6cbb",
+        "email": "Richie.Dach@roq.tech",
+        "firstName": "Dena",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0164ce97-b7c3-4132-ad72-d5aaecc7b27f",
+        "email": "Ludie_Lubowitz76@roq.tech",
+        "firstName": "Jeffry",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65635729",
+        "tenantId": null
+      }
+    ]
+  }
+]
